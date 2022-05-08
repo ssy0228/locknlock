@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>경영실적 - 경영정보 | 락앤락</title>
+  <link rel="shorcut icon" href="images/favicon.ico">
+  <link rel="stylesheet" href="css/sub2.css">
+  <script src="js/subsearch_pop.js"></script>
+  <script src="js/subheader.js"></script>
+  <script src="js/subfooter.js"></script>
+</head>
+<body>
+      <!-- header -->
+      <header id="head" >
+        <!-- head_wrap -->
+        <div id="head_wrap">
+          <!-- head_inner -->
+          <div id="head_inner">
+            <!-- logo -->
+            <h1 class="logo w"><a href="#wrap">락앤락</a></h1>
+            <!-- //logo -->
+            <!-- main menu -->
+            <nav class="gnb">
+              <h2 class="blind">주메뉴</h2>
+              <ul>
+                <li><a href="#" class="menu_bold">About</a>
+                <div class = "sub">               
+                  <ul>
+                    <li><a href="#" class="menu_bold"><span class="linear">Brand</span></a></li>
+                    <li><a href="#" class="menu_bold"><span class="linear">Histroy</span></a></li>
+                    <li><a href="#" class="menu_bold"><span class="linear">Award</span></a></li>
+                    <li><a href="#" class="menu_bold"><span class="linear">CSR</span></a></li>
+                  </ul>
+                </div>
+                </li>
+                <li><a href="#" class="menu_bold">Product</a>
+                <div class = "sub">
+                  <ul>
+                    <li><a href="#" class="menu_bold"><span class="linear">Food Container</span></a>
+                      <ul>
+                      <li><a href="#"><span class="linear">일반식품 보관</span></a></li>
+                      <li><a href="#"><span class="linear">밥 보관</span></a></li>
+                      <li><a href="#"><span class="linear">김치&middot;발효식품 보관</span></a></li>
+                      <li><a href="#"><span class="linear">건식품 분류 보관</span></a></li>
+                      <li><a href="#"><span class="linear">도시락</span></a></li>
+                      <li><a href="#"><span class="linear">간편하게 조리</span></a></li>
+                      </ul>
+                    </li>
+                    <li><a href="#" class="menu_bold"><span class="linear">Beverageware</span></a>
+                      <ul>
+                      <li><a href="#"><span class="linear">온-더-고</span></a></li>
+                      <li><a href="#"><span class="linear">온-더-테이블</span></a></li>
+                      <li><a href="#"><span class="linear">드라이브</span></a></li>
+                      <li><a href="#"><span class="linear">아웃도어</span></a></li>
+                      <li><a href="#"><span class="linear">비어</span></a></li>
+                      <li><a href="#"><span class="linear">키즈</span></a></li>
+                      </ul>
+                    </li>
+                    <li><a href="#" class="menu_bold"><span class="linear">Cookware</span></a>
+                      <ul>
+                      <li><a href="#"><span class="linear">스페셜 디자인</span></a></li>
+                      <li><a href="#"><span class="linear">편리한 사용</span></a></li>
+                      </ul>
+                    </li>
+                    <li><a href="#" class="menu_bold"><span class="linear">Small Appliance</span></a>
+                      <ul>
+                      <li><a href="#"><span class="linear">주방 생활</span></a></li>
+                      <li><a href="#"><span class="linear">케어</span></a></li>
+                      </ul>
+                    </li>
+                    <li><a href="#" class="menu_bold"><span class="linear">E-Catalog</span></a></li>
+                  </ul>
+                </div>  
+                </li>
+                <li><a href="#" class="menu_bold">Innovation</a>
+                <div class = "sub">
+                  <ul>
+                    <li><a href="#" class="menu_bold"><span class="linear">LL Labs</span></a></li>
+                    <li><a href="#" class="menu_bold"><span class="linear">Design Center</span></a></li>
+                  </ul>
+                </div>  
+                </li>
+                <li><a href="#" class="menu_bold">Story</a>
+                <div class = "sub">
+                  <ul>
+                    <li><a href="#" class="menu_bold"><span class="linear">News</span></a></li>
+                    <li><a href="#" class="menu_bold"><span class="linear">Lounge</span></a></li>
+                    <li><a href="#" class="menu_bold"><span class="linear">Now</span></a></li>
+                  </ul>
+                </div>  
+                </li>
+                <li><a href="#" class="menu_bold">Career</a>
+                <div class = "sub">
+                  <ul>
+                    <li><a href="#"><span class="linear">사내문화</span></a></li>
+                    <li><a href="#"><span class="linear">채용모집</span></a></li>
+                  </ul>
+                </div>
+                </li>
+              </ul>
+            </nav>
+            <!-- //main menu -->
+            <!-- topmenu -->
+            <div id="topMenu" class="topmenu">
+              <h3 class="blind">topmenu</h3>
+              <ul>
+                <li><a href="#" target="_blank">락앤락몰</a></li>
+                <li>
+                  <button type="button" id="langBtn" class="langBtn">KOR<i class="fas fa-chevron-down"></i></button>
+                  <div class="lang"><a href="#">ENG</a></div>
+                </li>
+                <li><button type="button" id="btn_srch_open" class="btn_srch_open">검색</button></li>
+              </ul>
+            </div>
+            <!-- //topmenu -->
+          </div>
+          <!-- //head_inner -->
+          <div id="backdrop1" class="is_active"></div>
+        </div>
+        <!-- //head_wrap -->
+        <!-- searchbox -->
+        <div id="searchbox_wrap">
+          <!-- logo in searchbox -->
+            <h1 class="logo b"><a href="index.html">락앤락</a></h1>
+              <!-- //logo in searchbox -->
+              <div class="searchbox_inner">
+                <form action="/" method="post">
+                <fieldset>
+                <legend class="blind">검색어</legend>
+                  <label for="srch" class="blind">검색어를 입력해주세요.</label>
+                  <input type="search" id="srch" placeholder="검색어를 입력해주세요">
+                  <button type="submit">검색</button>
+                </fieldset>
+                </form>
+                <div class="srch_tip">
+                  <b>추천 키워드</b>
+                  <a href="#" class="tag">#내열유리용기</a>
+                  <a href="#" class="tag">#텀블러</a>
+                  <a href="#" class="tag">#메트로</a>
+                  <a href="#" class="tag">#도시락</a>
+                  <a href="#" class="tag">#에어프라이어</a>
+                  <a href="#" class="tag">#비스프리</a>
+                  <a href="#" class="tag">#전자렌지</a>
+                  <a href="#" class="tag">#진공쌀통</a>
+                </div>
+                <button type="button" id="btn_srch_close" class="btn_srch_close">검색창 닫기</button>
+              </div>
+              <div id="backdrop2" class="isactive"></div>
+          </div>
+          <!-- //searchbox -->
+      </header>
+      <!-- //header -->
+    <!-- main -->
+    <main id="container">
+      <section class="content">
+        <h2>경영정보</h2>
+        <ul>
+          <li><a href="#" class="company notice">경영공고</a></li>
+          <li><a href="#wrap" class="company current">경영실적</a></li>
+          <li><a href="#" class="company book">IR BOOK</a></li>
+        </ul>
+        <table>
+          <caption class="blind">경영실적</caption>
+          <colgroup>
+            <col width="150px">
+            <col width="433px">
+            <col width="150px">
+            <col width="166px">
+          </colgroup>
+          <thead>
+            <tr>
+              <th scope="col">구분</th>
+              <th scope="col">제목</th>
+              <th scope="col">등록일</th>
+              <th scope="col">PDF</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>경영실적</td>
+              <td>2021년 3분기 경영실적 자료</td>
+              <td>2021. 11. 15</td>
+              <td><a href="#" class="more most"><span class="more_plus">자료받기&nbsp;<i class="icofont-download"></i></span></a></td>
+            </tr>
+            <tr>
+              <td>경영실적</td>
+              <td>2021년 2분기 경영실적 자료</td>
+              <td>2021. 08. 03</td>
+              <td><a href="#" class="more most"><span class="more_plus">자료받기&nbsp;<i class="icofont-download"></i></span></a></td>
+            </tr>
+            <tr>
+              <td>경영실적</td>
+              <td>2021년 1분기 경영실적 자료</td>
+              <td>2021. 04. 26</td>
+              <td><a href="#" class="more most"><span class="more_plus">자료받기&nbsp;<i class="icofont-download"></i></span></a></td>
+            </tr>
+            <tr>
+              <td>경영실적</td>
+              <td>(주) 락앤락 연결 / 별도 감사보고서</td>
+              <td>2021. 03. 23</td>
+              <td><a href="#" class="more most"><span class="more_plus">자료받기&nbsp;<i class="icofont-download"></i></span></a></td>
+            </tr>
+            <tr>
+              <td>경영실적</td>
+              <td>(주)락앤락 제16기 사업보고서</td>
+              <td>2021. 03. 23</td>
+              <td><a href="#" class="more most"><span class="more_plus">자료받기&nbsp;<i class="icofont-download"></i></span></a></td>
+            </tr>
+            <tr>
+              <td>경영실적</td>
+              <td>2020년 4분기 경영실적 자료</td>
+              <td>2020. 05. 17</td>
+              <td><a href="#" class="more most"><span class="more_plus">자료받기&nbsp;<i class="icofont-download"></i></span></a></td>
+            </tr>
+            <tr>
+              <td>경영실적</td>
+              <td>2020년 3분기 경영실적 자료</td>
+              <td>2020. 05. 16</td>
+              <td><a href="#" class="more most"><span class="more_plus">자료받기&nbsp;<i class="icofont-download"></i></span></a></td>
+            </tr>
+            <tr>
+              <td>경영실적</td>
+              <td>2020년 1분기 경영실적 자료</td>
+              <td>2020. 05. 15</td>
+              <td><a href="#" class="more most"><span class="more_plus">자료받기&nbsp;<i class="icofont-download"></i></span></a></td>
+            </tr>
+            <tr>
+              <td>경영실적</td>
+              <td>2019년 4분기 경영실적 자료</td>
+              <td>2020. 02. 14</td>
+              <td><a href="#" class="more most"><span class="more_plus">자료받기&nbsp;<i class="icofont-download"></i></span></a></td>
+            </tr>
+            <tr>
+              <td>경영실적</td>
+              <td>2019년 3분기 경영실적 자료</td>
+              <td>2019. 11. 04</td>
+              <td><a href="#" class="more most"><span class="more_plus">자료받기&nbsp;<i class="icofont-download"></i></span></a></td>
+            </tr>
+          </tbody>
+        </table>
+        <div>
+          <p>
+          <a href="#" class="prv disable"><i class="fas fa-chevron-left"></i><span>이전</span></a>
+          <a href="#wrap" class="num prev now"><span>1</span></a>
+          <a href="#" class="num next"><span>2</span></a>
+          <a href="#" class="num next"><span>3</span></a>
+          <a href="#" class="num next"><span>4</span></a>
+          <a href="#" class="num next"><span>5</span></a>
+          <a href="#" class="nxt disable"><i class="fas fa-chevron-right"></i><span>다음</span></a>
+          </p>
+        </div>
+      </section>
+    </main>
+    <!-- //main -->
+    <!-- footer -->
+    <footer id="foot_wrap">
+      <!-- foot_inner -->
+      <div class="foot_inner">
+        <!-- foot_address -->
+        <div class="foot_address">  
+          <span><a href="index.html"><img src="images/logo_b.png" alt="락앤락로고"></a></span>
+          <address>
+            ㈜락앤락, 서울특별시 서초구 서초대로38길 12, 10층<br>
+            (서초동, 마제스타시티타워2) 대표: 김성훈,<br>
+            사업자등록번호: 214-85-34765
+          </address>
+          <p>&copy; 2021 LocknLock Co. All Rights Reserved.</p>
+          <ul class="foot_store">
+            <li><a href="#" target="_blank"><span class="linear">락앤락몰</span><i class="icofont-external-link"></i><span>새창 바로가기</span></a></li>
+            <li><a href="#" target="_blank"><span class="linear">스마트스토어</span><i class="icofont-external-link"></i><span>새창 바로가기</span></a></li>
+          </ul>
+          <ul class="foot_sns">
+            <li><a href="#" target="_blank"><i class="fab fa-instagram fa-2x"></i><span>Instagram</span></a></li>
+            <li><a href="#" target="_blank"><i class="fab fa-youtube fa-2x"></i><span>Youtube</span></a></li>
+            <li><a href="#" target="_blank"><i class="fab fa-facebook-f fa-2x"></i><span>facebook</span></a></li>
+            <li><a href="#" target="_blank"><span>naver blog</span></a></li>
+          </ul>
+        </div>
+        <!-- //foot_address -->
+        <!-- sitemap -->
+        <div class="foot_sitemap">
+          <ul>
+            <li><a href="#"><span class="linear">About</span></a>
+              <div>
+              <ul>
+                <li><a href="#"><span class="linear">Brand</span></a></li>
+                <li><a href="#"><span class="linear">Histroy</span></a></li>
+                <li><a href="#"><span class="linear">Award</span></a></li>
+                <li><a href="#"><span class="linear">CSR</span></a></li>
+              </ul>
+              </div>
+            </li>
+            <li><a href="#"><span class="linear">Product</span></a>
+              <div>
+              <ul>
+                <li><a href="#"><span class="linear">Food Container</span></a></li>
+                <li><a href="#"><span class="linear">Beverageware</span></a></li>
+                <li><a href="#"><span class="linear">Cookware</span></a></li>
+                <li><a href="#"><span class="linear">Small Appliance</span></a></li>
+                <li><a href="#"><span class="linear">E-Catalog</span></a></li>
+              </ul>
+              </div>
+            </li>
+            <li><a href="#"><span class="linear">Innovation</span></a>
+              <div>
+              <ul>
+                <li><a href="#"><span class="linear">LL Labs</span></a></li>
+                <li><a href="#"><span class="linear">Design Center</span></a></li>
+              </ul>
+              </div>
+            </li>
+            <li><a href="#"><span class="linear">Story</span></a>
+              <div>
+              <ul>
+                <li><a href="#"><span class="linear">News</span></a></li>
+                <li><a href="#"><span class="linear">Lounge</span></a></li>
+                <li><a href="#"><span class="linear">Now</span></a></li>
+              </ul>
+              </div>
+            </li>
+            <li><a href="#"><span class="linear">Career</span></a>
+              <div>
+              <ul>
+                <li><a href="#"><span class="linear">사내문화</span></a></li>
+                <li><a href="#"><span class="linear">채용모집</span></a></li>
+              </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <!-- //sitemap -->
+        <a href="#head"><i class="fas fa-arrow-up"></i><span>위로 가기</span></a>
+        <!-- foot_company -->
+        <div class="foot_company">
+          <ul>
+            <li><a href="#"><span class="linear">글로벌 네트워크</span></a></li>
+            <li><a href="sub1.html"><span class="linear">문의</span></a></li>
+            <li><a href="#"><span class="linear">개인정보처리방침</span></a></li>
+            <li><a href="#"><span class="linear">윤리경영</span></a></li>
+            <li><a href="#wrap"><span class="linear">경영정보</span></a></li>
+            <li><a href="#"><span class="linear">사이트맵</span></a></li>
+          </ul>
+        </div>
+        <!-- //foot_company -->
+        <!-- foot_family -->
+        <div class="foot_family">
+          <ul>
+            <li id="list" class="list_on">
+              <button type="button" id="siteBtn">Family Sites<i class="fas fa-chevron-up"></i></button>
+              <ul class="list">
+              <li><a href="#" target="_blank"><span class="linear">락앤락몰</span></a></li>
+              <li><a href="#" target="_blank"><span class="linear">엘엘랩스</span></a></li>
+              <li><a href="#" target="_blank"><span class="linear">락앤락 스마트스토어</span></a></li>
+              <li><a href="#" target="_blank"><span class="linear">락앤락 Instagram</span></a></li>
+              <li><a href="#" target="_blank"><span class="linear">락앤락 Youtube</span></a></li>
+              <li><a href="#" target="_blank"><span class="linear">락앤락 Facebook</span></a></li>
+              <li><a href="#" target="_blank"><span class="linear">락앤락 공식 블로그</span></a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <!-- //foot_family -->
+      </div>
+      <!-- //foot_inner -->
+    </footer>
+    <!-- //footer -->
+    <a href="#" target="_blank" id="quick" class="gotomall">락앤락몰 바로가기배너</a>
+  <script>
+    window.onload = function() {
+      initMoving(document.getElementById("quick"), -130, 110, 15);
+    }
+  </script>
+  <script type="text/javascript" src="js/scroll.js"></script>
+</body>
+</html>
