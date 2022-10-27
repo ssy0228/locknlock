@@ -20,7 +20,7 @@ a, a:hover { text-decoration: none; box-sizing: border-box; }
 
 
 html,
-body { height: auto; position: relative; overflow-x: hidden; width: 100vw; max-width: 100%; overflow-y: auto; }
+body { height: auto; position: relative; overflow-x: hidden; width: 100vw; max-width: 100% !important; overflow-y: auto; overflow-x: hidden !important; }
   
 
 a span.linear { display: inline-block; background-image: linear-gradient(transparent 93%, #101820 1px); background-repeat: no-repeat; background-size: 0% 100%; -webkit-transition: background-size 0.3s ease-in-out 0s; -o-transition: background-size 0.3s ease-in-out 0s; -moz-transition: background-size 0.3s ease-in-out 0s; transition: background-size 0.3s ease-in-out 0s; }
@@ -126,8 +126,8 @@ nav.mgnb>ul { width: 100%; background: #fff; }
 
 
 /* list off */
-nav.mgnb>ul>li { position: relative; width: 100%; box-sizing: border-box; cursor: pointer; background: #fff; transition: max-height 0.3s ease-in-out; 
-  -webkit-transition: max-height 0.3s ease-in-out;-moz-transition: max-height 0.3s ease-in-out;-o-transition: max-height 0.3s ease-in-out;} 
+nav.mgnb>ul>li { position: relative; width: 100%; box-sizing: border-box; cursor: pointer; background: #fff; 
+  -webkit-transition: max-height 0.3s ease-in-out;-moz-transition: max-height 0.3s ease-in-out;-o-transition: max-height 0.3s ease-in-out; transition: max-height 0.3s ease-in-out; } 
 nav.mgnb>ul>li>a{ width: 100%; height: 69px; text-align: left; background: transparent; padding: 20px 5.05vw; font-size: 18px; 
                  font-weight: bold; letter-spacing: -0.5px; display: flex; flex-wrap: wrap; flex-direction: row; justify-content: space-between; } 
 nav.mgnb>ul>li>a>span.mo { line-height: 24px; font-size: 16px; transform: rotate(0); -webkit-transition: transform 0.3s ease-in-out; -moz-transition: transform 0.3s ease-in-out; -o-transition: transform 0.3s ease-in-out; transition: transform 0.3s ease-in-out;}
@@ -336,7 +336,7 @@ section.content2_wrap { width: 90vw; margin: 0 auto; }
 section.slideList { width: 100%; display: flex; flex-direction: column; flex-wrap: wrap; margin: 0 auto; } 
 .slideList>article { position: relative; width: 90vw; height: 80vh; display: flex; flex-direction: column; flex-wrap: nowrap; margin-bottom: 40px; }
 .slideList>article>div { width: 100%; height: 80vh; overflow: hidden; }
-.slideList>article>div>img { height: 80vh; transform: scale(1); object-fit: cover; -o-object-fit: cover;
+.slideList>article>div>img { height: 80vh; transform: scale(1); -o-object-fit: cover; object-fit: cover; 
                              -webkit-transition: transform 0.4s ease-in-out; -moz-transition: transform 0.4s ease-in-out;
                              -o-transition: transform 0.4s ease-in-out;  transition: transform 0.4s ease-in-out 0s;} 
 .slideList>article>a { position: absolute; bottom: 0; display: flex; flex-direction: column; flex-wrap: nowrap; 
