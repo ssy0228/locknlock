@@ -30,7 +30,6 @@ function mainer() {
     btn2.classList.remove("on");
     btn3.classList.add("on");
   });
-
 };
 
 window.addEventListener("load", mainer);
