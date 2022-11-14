@@ -253,7 +253,7 @@ a.gotomall { display: block; position: absolute; right: 20px; bottom: 16px; widt
 
  div.slide_roll { z-index: 1; position: absolute; width: 170px; height: 30px; bottom: 80px; margin-left: 4vw; } 
  .slide_roll ul { display: flex; flex-direction: row; flex-wrap: nowrap; width: 100%; height: 100%; } 
- .slide_roll li>button.roll[type="button"] { background-color: #fff; opacity: 0.2; width: 40px; height: 3px; cursor: pointer; text-indent: -9999px; overflow: hidden; margin-right: 10px; display: inline-flex; -webkit-transition: all 0.2s ease-in-out; -o-transition: all 0.2s ease-in-out; -moz-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; } 
+ .slide_roll li>button[type="button"].roll{ background-color: #fff; opacity: 0.2; width: 40px; height: 3px; cursor: pointer; text-indent: -9999px; overflow: hidden; margin-right: 10px; display: inline-flex; -webkit-transition: all 0.2s ease-in-out; -o-transition: all 0.2s ease-in-out; -moz-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; } 
  .slide_roll li>button[type="button"].roll:hover, 
  .slide_roll li>button[type="button"].roll.on { opacity: 1; } 
 
