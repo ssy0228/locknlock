@@ -26,3 +26,7 @@ function famLoad() {
 }
 
 window.addEventListener("load", famLoad, false);
+
+function name(params) {
+  
+}
