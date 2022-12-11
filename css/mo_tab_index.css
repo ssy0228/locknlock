@@ -54,13 +54,13 @@ a.plus>i { display: block; text-align: center; line-height: 35px; color: #101820
 a.plus:hover { background: #101820; } 
 a.plus:hover>i { transform: rotate(90deg); color: #fff; } 
 
-.foot_inner>a { position: absolute; right: 10px; top: -15px; display: block; width: 40px; height: 40px; 
+.foot_inner>button[type="button"] { position: absolute; right: 10px; top: -15px; display: block; width: 40px; height: 40px; padding: 0;
   background: #101820; color: #fff; -webkit-transition: background-color 0.3s ease-in-out; 
   -o-transition: background-color 0.3s ease-in-out; -moz-transition: background-color 0.3s ease-in-out; 
-  transition: background-color 0.3s ease-in-out; }
-.foot_inner>a>i { padding: 12px 13px; }
-.foot_inner>a>span { display: block; text-indent: -9999px; overflow: hidden; }
-.foot_inner>a:hover { background: #0071E3; }
+   transition: background-color 0.3s ease-in-out; }
+.foot_inner>button[type="button"]>i { padding: 12px 13px; }
+.foot_inner>button[type="button"]>span { display: block; text-indent: -9999px; overflow: hidden; }
+.foot_inner>button[type="button"]:hover { background: #0071E3; }
 
 /* gotomall */ 
 a.gotomall { display: block; position: absolute; right: 20px; bottom: 16px; width: 110px; height: 110px; text-indent: -9999px; overflow: hidden; background-image: url(../images/homepage_banner3.png); background-size: 110px; } 

@@ -238,12 +238,13 @@ div.foot_sitemap { position: absolute; top: 0; right: 180px; display: inline-blo
 .foot_sitemap>ul>li>div>ul>li>a { display: block; font-weight: normal; padding-bottom: 15px; }
 
 /* go to top */
-.foot_inner>a { position: absolute; right: 10px; top: -15px; display: block; width: 40px; height: 40px; 
-                background: #101820; color: #fff; -o-transition: background-color 0.3s ease-in-out; -moz-transition: background-color 0.3s ease-in-out; 
-                -webkit-transition: background-color 0.3s ease-in-out; transition: background-color 0.3s ease-in-out; }
-.foot_inner>a>i { padding: 12px 13px; }
-.foot_inner>a>span { display: block; text-indent: -9999px; overflow: hidden; }
-.foot_inner>a:hover { background: #0071E3; }
+.foot_inner>button[type="button"] { position: absolute; right: 10px; top: -15px; display: block; width: 40px; height: 40px; padding: 0;
+  background: #101820; color: #fff; -webkit-transition: background-color 0.3s ease-in-out; 
+  -o-transition: background-color 0.3s ease-in-out; -moz-transition: background-color 0.3s ease-in-out; 
+   transition: background-color 0.3s ease-in-out; }
+.foot_inner>button[type="button"]>i { padding: 12px 13px; }
+.foot_inner>button[type="button"]>span { display: block; text-indent: -9999px; overflow: hidden; }
+.foot_inner>button[type="button"]:hover { background: #0071E3; }
 
 /* foot_company */
 div.foot_company { position: relative; display: block; }
