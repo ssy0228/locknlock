@@ -12,8 +12,8 @@ body { font-family: "Noto Sans KR", "Roboto", "Noto Sans", sans-serif; color: #1
 a, a:hover { text-decoration: none; box-sizing: border-box; }
 a>span.linear { display: inline-block; background-image: linear-gradient(transparent 93%, #101820 1px); 
                 background-repeat: no-repeat; background-size: 0% 100%;
-                transition: background-size 0.3s ease-in-out 0s; -o-transition: background-size 0.3s ease-in-out 0s;
-                -moz-transition: background-size 0.3s ease-in-out 0s; -webkit-transition: background-size 0.3s ease-in-out 0s; }
+                -o-transition: background-size 0.3s ease-in-out 0s; -moz-transition: background-size 0.3s ease-in-out 0s; -webkit-transition: background-size 0.3s ease-in-out 0s; 
+                transition: background-size 0.3s ease-in-out 0s; }
 a:hover>span.linear { background-size: 100% 100%; }
 .more { position: relative; box-sizing: border-box; display: inline-block; overflow: visible; 
         padding: 15px 30px; border: 1px solid #101820; background-color: #101820; color: #101820;
@@ -40,8 +40,8 @@ a:hover>span.linear { background-size: 100% 100%; }
   #head { z-index: 2; position: absolute; top: 0; width: 100%; height: 63px; margin: 0 auto; background: transparent; }
   #head_wrap { width: 100%; margin: 0 auto; }
     #head_inner { display: flex; width: 100%; height: 63px; margin: 0 auto; z-index: 4;
-                  -o-transition: all 0.3s ease-in-out 0s; transition: all 0.3s ease-in-out 0s; 
-                  -moz-transition: all 0.3s ease-in-out 0s; -webkit-transition: all 0.3s ease-in-out 0s; }
+                  -o-transition: all 0.3s ease-in-out 0s; 
+                  -moz-transition: all 0.3s ease-in-out 0s; -webkit-transition: all 0.3s ease-in-out 0s; transition: all 0.3s ease-in-out 0s; }
     #head_inner.iswhite,
     #head_inner.is-active { background-color: #fff; border-bottom: 1px solid #ccc; }           
     #container { width: 100%; margin: 0px auto 100px; }
@@ -82,12 +82,12 @@ nav.gnb>ul { width: 100%; height: 100%; text-align: center; display: flex; flex-
 
 .gnb>ul>li>div { display: none; position: absolute; left: 0; top: 0; right: 0; margin: 0 auto; width: 100%; height: 131px; 
                 padding-top: 63px; box-sizing: border-box; 
-                -o-transition: all 0.3s ease-in-out 0s; transition: all 0.3s ease-in-out 0s; z-index: 2;
-                 -moz-transition: all 0.3s ease-in-out 0s; -webkit-transition: all 0.3s ease-in-out 0s; }
+                -o-transition: all 0.3s ease-in-out 0s; z-index: 2;
+                 -moz-transition: all 0.3s ease-in-out 0s; -webkit-transition: all 0.3s ease-in-out 0s; transition: all 0.3s ease-in-out 0s; }
 .gnb>ul>li>div::after { content: ""; display: block; width: 100%; position: absolute; top: 63px; height: 1px; background: #ccc; z-index: 2; }                 
 .gnb>ul>li.on>div { display: block; }                 
 #backdrop1 { display: none; position: fixed; left: 0; top: 0; right: 0; width: 100%; height: 100%;
-            background-color: rgba(216,216,216,0.1); backdrop-filter: blur(3px); opacity: 1; z-index: 1; }
+            background-color: rgba(216,216,216,0.1); -webkit-backdrop-filter: blur(3px); backdrop-filter: blur(3px); opacity: 1; z-index: 1; }
 #backdrop1.is_active { display: block; }
 .gnb>ul>li>div>ul { display: block; text-align: center; }
 .gnb>ul>li>div>ul>li { display: inline-block; vertical-align: top; line-height: 2.0; margin-right: 38px; }
@@ -139,7 +139,7 @@ div.topmenu { width: 100%; line-height: 64px; height: 64px; display: flex; }
 /* searchbox */
 #searchbox_wrap { display: none; z-index: 250; position: absolute; left: 0; top: 0; width: 100%; height: 962px; }
 #searchbox_wrap>#backdrop2.isactive { position: fixed; top: 0px; right: 0; width: 100%; height: 100%; background-color: rgba(216,216,216,0.1); 
-                                     backdrop-filter: blur(3px); opacity: 1; cursor: pointer; }
+  -webkit-backdrop-filter: blur(3px); backdrop-filter: blur(3px); opacity: 1; cursor: pointer; }
 .searchbox_inner { z-index: 260; position: absolute; width: 100%; height: 320px; background: #fff; border-bottom: 1px solid #ccc; }
 h1.logo.b>a { z-index: 270; display: block; width: 135px; height: 21px; background: url(../images/logo_b.png) no-repeat 0 0; 
               text-indent: -9999px; overflow: hidden; position: absolute; left: 248px; top: 20px; }
@@ -184,8 +184,8 @@ div.qna_form fieldset { position: relative; display: block; width: 670px; margin
 .qna_form fieldset>div.form>label { padding-bottom: 10px; margin-top: 24px; }
 div.form>.block,
 .form>input#file { padding: 15px; font-size: 15px; box-sizing: border-box; outline: none; border: 1px solid #d8d8d8; 
-                  transition: border-color 0.2s ease-in-out; -o-transition: border-color 0.2s ease-in-out;
-                  -moz-transition: border-color 0.2s ease-in-out; -webkit-transition: border-color 0.2s ease-in-out; }
+                 -o-transition: border-color 0.2s ease-in-out;
+                  -moz-transition: border-color 0.2s ease-in-out; -webkit-transition: border-color 0.2s ease-in-out;  transition: border-color 0.2s ease-in-out; }
 .form>select#categoryID { display: block; padding-right: 40px; margin: 0; }    
 .form>select.block { appearance: none; background-color: #fff; background-image: url(../images/foot_arr_down.png); background-repeat: no-repeat;
                      background-size: 14px auto; background-position: 95% 40%; vertical-align: middle; }                                                    
@@ -215,11 +215,11 @@ div.agree { position: relative; padding: 15px 0; }
 div.agree>span.check.active { position: relative; display: block; line-height: 18px; padding: 2px 0; }
 .check>input { position: absolute; left: 0; top: 10px; overflow: hidden; width: 1px; height: 1px; }
 .check>input[type="checkbox"] { box-sizing: border-box; padding: 0; }
-.check>label { display: inline-block; vertical-align: top; padding: 4px 0; color: #54565B; cursor: pointer; transition: color 0.3s; -o-transition: color 0.3s; 
-              -moz-transition: color 0.3s; -webkit-transition: color 0.3s; }
+.check>label { display: inline-block; vertical-align: top; padding: 4px 0; color: #54565B; cursor: pointer; -o-transition: color 0.3s; 
+              -moz-transition: color 0.3s; -webkit-transition: color 0.3s; transition: color 0.3s; }
 .check.active>label::before { content: ""; position: absolute; left: 0; top: 6px; display: inline-block; width: 14px; height: 14px; border: 2px solid #76777B;
-                              transition: border-color 0.2s; -o-transition: border-color 0.2s; -moz-transition: border-color 0.2s; 
-                              -webkit-transition: border-color 0.2s; }
+                              -o-transition: border-color 0.2s; -moz-transition: border-color 0.2s; 
+                              -webkit-transition: border-color 0.2s; transition: border-color 0.2s; }
 .check.active>input { border-color: #0071E3; }
 .check>input:hover + label,
 .check>input:focus + label,
@@ -361,8 +361,8 @@ div.foot_family { position: absolute; right: 10px; bottom: 0; display: inline-bl
 .foot_family>ul>li.list_on>button[type="button"] { position: relative; display: block; outline: none; border: none; border-bottom: 1px solid rgba(16, 24, 32, 0.4); 
                                                   width: 210px; height: 33px; line-height: 33px; padding: 0; background: transparent; 
                                                   font-size: 14px; font-family: "Roboto", sans-serif; text-align: left; cursor: pointer; }
-.foot_family>ul>li.list_on>button>i { position: absolute; top: 10px; right: 0px; font-size: 13px; transform: rotate(0deg); transition: transform 0.3s ease-in-out;
-                                      -o-transition: transform 0.3s ease-in-out; -moz-transition: transform 0.3s ease-in-out; -webkit-transition: transform 0.3s ease-in-out; }
+.foot_family>ul>li.list_on>button>i { position: absolute; top: 10px; right: 0px; font-size: 13px; transform: rotate(0deg); 
+                                      -o-transition: transform 0.3s ease-in-out; -moz-transition: transform 0.3s ease-in-out; -webkit-transition: transform 0.3s ease-in-out; transition: transform 0.3s ease-in-out;}
 .foot_family>ul>li>ul { display: none; position: absolute; bottom: 33px; width: 210px; height: 200px; padding: 15px 15px; background: #f7f7f7; 
                         border: 1px solid #ccc; box-sizing: border-box; }
 .foot_family>ul>li>ul a { font-size: 14px; color: #101820; }
